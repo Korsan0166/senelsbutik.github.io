@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şenels Butik</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .product img {
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Şenels Butik</h1>
+        <p>Kadın Giyim Mağazası</p>
+    </header>
+    <nav>
+        <a href="#home">Anasayfa</a>
+        <a href="#products">Ürünler</a>
+        <a href="#about">Hakkında</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Hoş Geldiniz</h2>
+            <p>Şenels Butik'e hoş geldiniz! En yeni moda trendlerini keşfedin.</p>
+        </section>
+        <section id="products" class="products">
+            <h2>Ürünler</h2>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x400" alt="Ürün 1">
+                <h3>Ürün Adı 1</h3>
+                <p>Ürün açıklaması burada yer alacak.</p>
+                <p><strong>₺100</strong></p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x400" alt="Ürün 2">
+                <h3>Ürün Adı 2</h3>
+                <p>Ürün açıklaması burada yer alacak.</p>
+                <p><strong>₺150</strong></p>
+            </div>
+            <!-- Daha fazla ürün ekleyebilirsiniz -->
+        </section>
+        <section id="about">
+            <h2>Hakkında</h2>
+            <p>Şenels Butik, kadın giyiminde en son trendleri sunan bir mağazadır. Kaliteli ve şık ürünleriyle müşterilerine hizmet vermektedir.</p>
+        </section>
+        <section id="contact">
+            <h2>İletişim</h2>
+            <p>Adres: Örnek Cadde, No: 123, İstanbul</p>
+            <p>Telefon: 0123 456 7890</p>
+            <p>Email: info@senelsbutik.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Şenels Butik. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>
